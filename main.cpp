@@ -10,6 +10,12 @@ int main(void)
     Logger::Init();
 
     const int MAX_COLUMNS = 20;
+
+    std::map<std::string,std::string> conf;
+
+    conf["master.sound.bank"] = "assets/fmod_banks/music_bank.bank";
+    conf["strings.sound.bank"] = "assets/fmod_banks/music_bank.strings.bank";
+
     // Initialization
     //--------------------------------------------------------------------------------------
     RenderSystem render = RenderSystem();

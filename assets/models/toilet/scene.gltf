@@ -1288,7 +1288,7 @@
       "children": [
         1
       ],
-      "name": "RootNode (gltf orientation matrix)",
+      "name": "RootNode gltf",
       "rotation": [
         -0.70710678118654746,
         -0,
@@ -1318,7 +1318,7 @@
         0,
         1
       ],
-      "name": "RootNode (model correction matrix)"
+      "name": "RootNode model"
     },
     {
       "children": [
@@ -1342,7 +1342,7 @@
         0,
         1
       ],
-      "name": "f3c6829d6c0c42dbbb2832d84443060a.fbx"
+      "name": "f3c6.fbx"
     },
     {
       "children": [
