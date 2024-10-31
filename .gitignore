@@ -1,9 +1,3 @@
 bin/game
 bin/assets
-FmodSoundEngine.cpp
-FmodSoundEngine.hpp
-ISound.cpp
-ISound.hpp
-edits en assets glft.txt
 buildandrun.sh~
-README.md

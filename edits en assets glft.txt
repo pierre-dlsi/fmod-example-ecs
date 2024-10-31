@@ -1,0 +1,16 @@
+radio
+f6a3d66730884ec99fc30884f65ba74c.fbx
+
+table
+"RootNode (gltf orientation matrix)" "RootNode gltf"
+RootNode (model correction matrix) "RootNode model"
+dcb0f21529b8469c8180ce820d406b2d.fbx dcb0.fbx
+
+Toilet
+"RootNode (gltf orientation matrix)" "RootNode gltf"
+RootNode (model correction matrix) "RootNode model"
+f3c6829d6c0c42dbbb2832d84443060a.fbx   f3c6.fbx 
+
+
+bed
+53cca006444e4a65b58378a3e73653b6.fbx 53cc.fbx
