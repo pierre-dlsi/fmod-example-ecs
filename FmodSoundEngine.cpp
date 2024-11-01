@@ -52,4 +52,31 @@ void
 FmodSoundEngine::update() {
 
 }
-     
+
+void 
+FmodSoundEngine::loadSoundBank(const std::string& bank_name) 
+{}
+
+SoundComponent* 
+FmodSoundEngine::getSoundComponent(const std::string& eventID) 
+{
+    return NULL;
+}
+
+void 
+FmodSoundEngine::setSoundPosition(SoundComponent* sc, const PositionComponent& pos)
+{}
+
+void 
+FmodSoundEngine::start(const SoundComponent* sc)
+{}
+
+void 
+FmodSoundEngine::stop(const SoundComponent* sc)
+{}
+
+void 
+FmodSoundEngine::updateSoundEventParameter(const SoundComponent* sc, const std::string& paramName, float paramValue)
+{}
+
+  

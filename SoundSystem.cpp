@@ -88,7 +88,7 @@ void SoundSystem::AddSoundComponent(entt::entity& ent, entt::registry& reg, cons
     reg.emplace<SoundComponent>(ent, eventID, floatmap, intmap, 0, 0, 1);
     
     ERRCHECK(soundInstance->start());
-    SOUND_TRACE("Entity {0} has registered a new Render Component", ent);
+    SOUND_TRACE("Entity {0} has registered a new Sound Component", ent);
 }
 
 void SoundSystem::Update(entt::registry& reg)
