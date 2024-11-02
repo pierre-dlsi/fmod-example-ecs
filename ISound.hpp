@@ -12,6 +12,7 @@ class ISound {
     public:
         virtual void init(const std::string& conf_filename) = 0;
         virtual void loadSoundBank(const std::string& bank_name) = 0;
+        virtual void unloadSoundBank(const std::string& bank_name) = 0;
         virtual void setListenerPosition(const PositionComponent& pos) = 0;
         virtual SoundComponent* getSoundComponent(const std::string& eventID) = 0;
         virtual void setSoundPosition(SoundComponent* sc, const PositionComponent& pos) = 0;

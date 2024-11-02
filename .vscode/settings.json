@@ -79,6 +79,7 @@
         "ranges": "cpp",
         "span": "cpp",
         "format": "cpp",
-        "stdfloat": "cpp"
+        "stdfloat": "cpp",
+        "*.m": "cpp"
     }
 }

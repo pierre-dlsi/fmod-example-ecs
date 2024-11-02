@@ -10,20 +10,23 @@
 
 class FmodSoundEngine : public ISound {
     private:
+        std::string soundAssetsFolder;
         std::map<std::string, FMOD::Studio::EventDescription*> eventMap;
         std::map<std::string, FMOD::Studio::EventInstance*> eventInstances;
         FMOD::Studio::System * soundSystem;
         FMOD::System* low_level_system;
         FMOD::Studio::Bank* master_bank;
         FMOD::Studio::Bank* strings_bank;
+        std::map<std::string, FMOD::Studio::Bank*> bankMap;
 
     public:
-        FmodSoundEngine();
+        FmodSoundEngine(const std::string& soundAssetsFolder);
         virtual void init(std::string conf_filename);
-        virtual void setListenerPosition(float x, float y, float z);
+        virtual void setListenerPosition(const PositionComponent& pos);
         virtual void setRadioTuning(int dial);
         virtual void update();
         virtual void loadSoundBank(const std::string& bank_name) ;
+        virtual void unloadSoundBank(const std::string& bank_name);
         virtual SoundComponent* getSoundComponent(const std::string& eventID);
         virtual void setSoundPosition(SoundComponent* sc, const PositionComponent& pos);
         virtual void start(const SoundComponent* sc);
